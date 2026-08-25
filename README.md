@@ -1,4 +1,3 @@
-markdown
 # Defensive Security Assessment Capstone - Student Portal
 
 **Track:** Cyber Security  
@@ -15,3 +14,5 @@ This repository contains the final capstone defensive security assessment of a l
 
 ## Key Assessment Results
 - **Scope & RoE:** Established strict authorization and rules of engagement limited to localhost (`127.0.0.1`).
+- **Identified Risks:** Uncovered Stored XSS (V-01), Vulnerable Dependencies (V-02), and Missing Security Headers (V-03).
+- **Remediation & Retesting:** Successfully mitigated all high/medium risks with HTML sanitization, dependency updates, and security header enforcement.
